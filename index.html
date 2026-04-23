@@ -13,10 +13,10 @@ html, body {
   background: #000;
   display: flex;
   align-items: center;
-  justify-content: center; /* 👈 vuelve a center */
+  justify-content: center;
   flex-direction: column;
+  overflow: hidden; /* importante para no scroll */
 }
-
     body::before {
       content: '';
       position: fixed;
